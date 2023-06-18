@@ -1,0 +1,140 @@
+* {
+    /*border: 1px solid red;*/
+    color: white;
+    font-family: "Segoe UI", serif;
+}
+
+body{
+    background: rgb(24,35,52);
+    background: linear-gradient(261deg, rgba(24,35,52,1) 0%, rgba(18,18,24,1) 99%);
+    overflow: hidden;
+}
+
+h1.logo {
+    font-family: "Segoe UI", serif;
+    color: white;
+    padding: 10px;
+}
+
+div.baseContainer{
+    border-width: 0px;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+}
+
+div.form-container{
+    border-width: 0px;
+    border-color: white;
+    border-style: solid;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+h1{
+    color: #eeeeed;
+    font-family: "Segoe UI", serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 60%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.submitContainer{
+    display: flex;
+    color: white;
+    width: 55%;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: "Segoe UI Semibold", serif;
+    background-color: #bc161d;
+    border-radius: 20px;
+    border: 0 solid #ccc;
+    color: white;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    position: relative;
+}
+
+label{
+    position: relative;
+    width: 110%;
+    display: flex;
+    margin-left: 50px;
+}
+
+.bgImage{
+    border-width: 0px;
+    border-color: white;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 50%;
+}
+
+img {
+    max-width: 130%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 3;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+input[type="checkbox"]{
+    vertical-align:middle;
+    color: white;
+    background: white;
+}

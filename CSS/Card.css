@@ -1,0 +1,110 @@
+/** {*/
+/*    !*border: 1px solid red;*!*/
+/*    color: white;*/
+/*    font-family: "Segoe UI", serif;*/
+/*}*/
+
+/*html {*/
+/*    height: 100%;*/
+/*}*/
+/*body {*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*    background: rgb(24, 35, 52);*/
+/*    background: linear-gradient(333deg, rgba(24, 35, 52, 1) 0%, rgba(18, 18, 24, 1) 99%);*/
+/*}*/
+
+.DivCat{
+    margin-bottom: 5%;
+}
+
+
+
+.h2Topic{
+    color: white;
+    font-family: "Segoe UI Semibold", serif;
+    font-weight: bolder;
+    width: 90%;
+    font-size: 40px;
+    margin: auto 20px auto auto;
+}
+
+.ItemContainer{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+
+}
+
+.card {
+    background: rgb(23,31,46);
+    background: linear-gradient(0deg, rgba(23,31,46,1) 0%, rgba(116,108,255,1) 99%);
+    width: 190px;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    margin: 10% auto;
+}
+
+.card:hover{
+    box-shadow: 0px 15px 20px rgba(231, 20, 25, 0.4);
+    transform: translateY(-7px);
+    scale: 110%;
+    transition-duration: 0.5s;
+}
+
+.ItemContainer-Red > .card{
+    background: rgb(231,20,25);
+    background: linear-gradient(180deg, rgba(231,20,25,1) 0%, rgba(23,31,46,1) 100%);
+}
+
+.Img1{
+    max-width: 70%;
+    height: auto;
+}
+
+.card-info{
+    text-align: center;
+}
+
+.title{
+    width: 150px;
+    height: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Segoe UI regular", serif;
+    font-weight: lighter;
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+.price{
+    font-family: "Segoe UI Semibold", serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.fd{
+    font-family: "Segoe UI regular", serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+
+.Buy{
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #746CFF;
+}
+
+.Buy:hover{
+    scale: 110%;
+}

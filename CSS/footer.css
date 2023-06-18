@@ -1,0 +1,44 @@
+* {
+    /*border: 1px solid red;*/
+}
+
+
+body{
+    background: rgb(24, 35, 52);
+}
+.footerContainer{
+
+}
+
+.footerImagesContainer{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.footerImagesContainer >a >img{
+    height: 25px;
+    width: auto;
+    fill: green;
+    color: white;
+    margin-left: 20px;
+}
+
+.footerTextContainer{
+    width: 30%;
+    display:flex;
+    margin: auto;
+}
+
+.txtFooter{
+    margin: auto;
+
+}
+
+ .footerTextContainer > p{
+     width: fit-content;
+    color: white;
+    font-family: "Segoe UI", ui-rounded;
+    font-weight: lighter;
+     line-height: 30px;
+}

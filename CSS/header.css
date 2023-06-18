@@ -1,0 +1,41 @@
+
+.grid-item-InnerHeader {
+    width: 90%;
+    height: auto;
+    display: flex;
+    grid-gap: 0px;
+    padding-top: 2%;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+}
+
+.TechieLogo {
+    color: white;
+    font-family: "Segoe UI Semibold", serif;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.grid-item-Menu {
+    float: right;
+    position: relative;
+    color: white;
+    display: flex;
+    right: 0;
+}
+
+.grid-item-FormGrid{
+    display: flex;
+}
+
+.grid-item-Form{
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
