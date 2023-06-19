@@ -1,3 +1,7 @@
+* {
+    /*border: 1px solid red;*/
+}
+
 
 .grid-item-InnerHeader {
     width: 90%;
@@ -26,16 +30,15 @@
     right: 0;
 }
 
-.grid-item-FormGrid{
-    display: flex;
-}
 
-.grid-item-Form{
-    display: flex;
-}
 
-a {
+.grid-item-Menu > a {
     color: white;
     text-decoration: none;
     font-size: 15px;
+    padding-left: 50px;
+}
+
+a{
+    text-decoration: none;
 }

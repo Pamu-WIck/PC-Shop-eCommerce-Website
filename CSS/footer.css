@@ -3,20 +3,22 @@
 }
 
 
-body{
+body {
     background: rgb(24, 35, 52);
 }
-.footerContainer{
+
+.footerContainer {
 
 }
 
-.footerImagesContainer{
+.footerImagesContainer {
     width: fit-content;
     display: flex;
     margin: auto;
     margin-bottom: 10px;
 }
-.footerImagesContainer >a >img{
+
+.footerImagesContainer > a > img {
     height: 25px;
     width: auto;
     fill: green;
@@ -24,21 +26,24 @@ body{
     margin-left: 20px;
 }
 
-.footerTextContainer{
+.footerTextContainer {
     width: 30%;
-    display:flex;
+    display: flex;
     margin: auto;
 }
 
-.txtFooter{
+.txtFooter {
     margin: auto;
 
 }
 
- .footerTextContainer > p{
-     width: fit-content;
+.footerTextContainer > a {
+    padding-right: 10px;
+    width: fit-content;
     color: white;
     font-family: "Segoe UI", ui-rounded;
     font-weight: lighter;
-     line-height: 30px;
+    line-height: 30px;
+    margin: auto;
+    text-decoration: none;
 }

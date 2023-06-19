@@ -70,7 +70,7 @@ input {
 .submitContainer{
     display: flex;
     color: white;
-    width: 55%;
+    width: fit-content;
 }
 
 button {
@@ -80,7 +80,7 @@ button {
     border-radius: 20px;
     border: 0 solid #ccc;
     color: white;
-    width: fit-content;
+    width: 100px;
     padding-left: 15px;
     padding-right: 15px;
     height: 30px;
@@ -89,7 +89,7 @@ button {
 
 label{
     position: relative;
-    width: 110%;
+    width: auto;
     display: flex;
     margin-left: 50px;
 }
@@ -116,6 +116,16 @@ img {
     transform: translateY(-50%);
 }
 
+.triangle{
+    max-width: 40%;
+    height: 10%;
+    position: absolute;
+    right: 0;
+    top: -20%;
+    z-index: -1;
+
+}
+
 .container input {
     position: absolute;
     opacity: 0;
@@ -138,3 +148,27 @@ input[type="checkbox"]{
     color: white;
     background: white;
 }
+
+a{
+    text-decoration: none;
+
+}
+
+.wrongPass{
+    text-align: center;
+    color: #bc161d;
+}
+
+a > p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    opacity: 80%;
+}
+
+a > p:hover{
+    opacity: 100%;
+}
+
+
+

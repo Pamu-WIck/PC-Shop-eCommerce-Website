@@ -66,24 +66,29 @@ img {
     z-index: 3;
 }
 
+.DivCat{
+    transform: translateY(20px);
+}
+
 
 a.btnBuyNow{
     width: 50%;
     height: auto;
-    background: linear-gradient(to right,#e71419 ,#6433e0);
     background-color: #e71419;
+    background: linear-gradient(to right,#e71419 ,#6433e0);
     color: #fff;
     font-family: Trebuchet MS;
     font-size: 19px;
     font-weight: 800;
     font-style: normal;
     text-decoration: none;
-    padding: 14px 15px;
+    padding: 14px 10px;
     border: 0px solid #000;
     border-radius: 10px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    transform: translateY(50%);
 }
 a.btnBuyNow span{
     margin-right: 15px;

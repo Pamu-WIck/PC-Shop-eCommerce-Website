@@ -1,8 +1,8 @@
-/** {*/
-/*    !*border: 1px solid red;*!*/
-/*    color: white;*/
-/*    font-family: "Segoe UI", serif;*/
-/*}*/
+* {
+    /*border: 1px solid red;*/
+    color: white;
+    font-family: "Segoe UI", serif;
+}
 
 /*html {*/
 /*    height: 100%;*/
@@ -44,15 +44,17 @@
     background: linear-gradient(0deg, rgba(23,31,46,1) 0%, rgba(116,108,255,1) 99%);
     width: 190px;
     height: auto;
+    max-height: 286px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     padding-bottom: 2%;
     margin: 10% auto;
+    transition: all 0.3s ease 0s;
 }
 
 .card:hover{
-    box-shadow: 0px 15px 20px rgba(231, 20, 25, 0.4);
+    box-shadow: 0px 15px 20px rgb(112, 105, 247, 0.4);
     transform: translateY(-7px);
     scale: 110%;
     transition-duration: 0.5s;
@@ -61,15 +63,34 @@
 .ItemContainer-Red > .card{
     background: rgb(231,20,25);
     background: linear-gradient(180deg, rgba(231,20,25,1) 0%, rgba(23,31,46,1) 100%);
+
 }
 
+.ItemContainer-Red > .card:hover{
+    box-shadow: 0px 15px 20px rgb(231,20,25, 0.4);
+}
+
+.ItemContainer-Green > .card{
+    background: rgb(98, 196, 77);
+    background: linear-gradient(180deg, rgb(98, 196, 77) 0%, rgba(23,31,46,1) 100%);
+}
+
+.ItemContainer-Green > .card:hover{
+    box-shadow: 0px 15px 20px rgb(98, 196, 77, 0.4);
+}
+
+
 .Img1{
-    max-width: 70%;
-    height: auto;
+    width: auto;
+    height: 118px;
+    max-width: 133px;
+    max-height: 118px;
+    transform: translateY(10%);
 }
 
 .card-info{
     text-align: center;
+    transform: translateY(-20px);
 }
 
 .title{
@@ -102,9 +123,11 @@
     color: white;
     border-radius: 5px;
     background-color: transparent;
-    border-color: #746CFF;
+    border-color: rgba(113, 107, 250, 0.8);
 }
 
 .Buy:hover{
     scale: 110%;
+    border-color: rgba(113, 107, 250);
+    transition: ease;
 }

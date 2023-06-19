@@ -32,19 +32,26 @@ body{
     height: auto;
     min-width: 400px;
     min-height: 300px;
+    max-width: 651px;
+    max-height: 507px;
     overflow: hidden;
+
 }
 
 .ProductImage{
-    width: 100%;
+    width: auto;
     height: auto;
-    scale: 80%
+    max-height: 402px;
+    scale: 80%;
+    transition: all 0.3s ease 0s;
+    margin: auto;
 }
 
 .ProductImage:hover{
-    scale:130%;
+    scale:100%;
     transform: translateY(15px);
-    transition-duration: 0.5s;
+    /*
+    */
 }
 
 
@@ -71,7 +78,7 @@ h2{
 
 p{
     width: 80%;
-    font-family: "Segoe UI Semilight", serif;
+    font-family: "Segoe UI Light", serif;
     line-height: 20px;
     font-weight: lighter;
 }
